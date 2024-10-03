@@ -1,7 +1,7 @@
 # DesenvolvimetoWeb2024
 Aqui serão escritos todas as descrições das práticas da matéria
 
-Aula 01:
+Aula 01: Na Aula 01 realizamos a primeira prática onde apenas foi criado uma página simples em HTML.
 
 Aula 02:
 

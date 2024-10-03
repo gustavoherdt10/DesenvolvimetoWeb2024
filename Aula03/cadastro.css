@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 15px;
+}
+label {
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="color"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+input[type="text"]#campo_cep {
+    width: 100%;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    width: calc(33% - 10px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+input[type="reset"] {
+    background-color: #f44336;
+}
+input[type="button"] {
+    background-color: #2196F3;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    opacity: 0.9;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+li input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 15px;
+}
