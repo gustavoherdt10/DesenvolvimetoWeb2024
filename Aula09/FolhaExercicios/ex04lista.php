@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcular Área de um Retângulo</title>
+    <title>Exercicio 04 Lista</title>
 </head>
 <body>
 
