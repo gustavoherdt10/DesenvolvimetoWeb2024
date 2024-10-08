@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <h2>Calcule a área de um retângulo</h2>
+    <h2>Calculando a área de um retângulo</h2>
     <form method="POST" action="">
         <label for="ladoA">Comprimento do lado A (em metros):</label>
         <input type="number" id="ladoA" name="ladoA" required><br><br>
