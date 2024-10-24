@@ -1,6 +1,6 @@
 <?php
 
-    require_once "lab1_aula14.php";
+    require_once "ex1_aula14pt1.php";
 
     $calculadora = new Calculadora();
 
