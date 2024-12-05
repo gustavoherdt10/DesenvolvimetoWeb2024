@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Função para exibir um alerta e redirecionar para a página de login
 function exibirAlertaELogout($mensagem) {
     echo "<script>
         alert('$mensagem');
@@ -10,21 +9,17 @@ function exibirAlertaELogout($mensagem) {
     exit;
 }
 
-// Verifica se os dados essenciais da sessão ou cookies estão disponíveis
 if (!isset($_SESSION['login']) || !isset($_SESSION['inicio_sessao']) || 
     !isset($_COOKIE['usuario']) || !isset($_COOKIE['inicio_sessao'])) {
     exibirAlertaELogout("Os dados da sessão foram perdidos. Por favor, faça login novamente.");
 }
 
-// Atualiza o horário da última requisição
 $_SESSION['ultima_requisicao'] = date('Y-m-d H:i:s');
 
-// Calcula o tempo total da sessão
 $inicio = strtotime($_SESSION['inicio_sessao']);
 $ultima = strtotime($_SESSION['ultima_requisicao']);
 $tempo_sessao = $ultima - $inicio;
 
-// Formata o tempo total em minutos e segundos
 $tempo_formatado = gmdate("i:s", $tempo_sessao);
 ?>
 <!DOCTYPE html>
